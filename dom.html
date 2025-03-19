@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        body{
+            background-color: rgb(6, 56, 2);
+        }
+        h1{
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-size: 100px;
+        }
+        #div_one{
+            background-color: rgb(255, 255, 255);
+            width: 50%;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        #btn{
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .div_two{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5%;
+            gap: 3rem;        
+        }
+        #div_three{
+            background-color: lightblue;
+            width: 50%;
+            margin: auto;
+            margin-top: 1rem;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .divinfour{
+            width: 50%;
+            margin: auto;
+            margin-top: 5rem;
+            margin-top: 1rem;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+
+         #create-div{
+            background-color: rgb(242, 133, 16);
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+         }
+
+         #multi_div{
+            background-color: rgb(63, 139, 19);
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+         }
+    </style> 
+
+    <h1> Document object model (DOM) </h1>
+
+    <div id="div_one">
+        <h2> What is DOM? </h2>
+        <p> The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page. </p>
+        <Button id="btn">
+            Click me!
+        </Button>
+    </div>
+
+    <div class="div_two">
+       <button id="create-div">
+        Create a div
+       </button>
+
+       <button id="multi_div">
+        Multi div
+       </button>
+    </div>
+
+    <div id="div_four">
+    </div>
+
+
+
+    <script src="./dom.js"></script>
+</body>
+</html>
